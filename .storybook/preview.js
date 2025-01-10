@@ -21,9 +21,4 @@ const preview = {
     },
   },
 };
-
-export const parameters = {
-  actions: { argTypesRegex: "^on[A-Z].*" }, // Captura eventos que começam com "on"
-};
-
 export default preview;
