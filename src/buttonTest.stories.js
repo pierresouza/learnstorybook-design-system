@@ -17,25 +17,26 @@ export default {
   },
 };
 
-const Template = (args) => <ButtonTest {...args} />;
-
-export const Default = Template.bind({});
-Default.args = {
-  value: "Button",
-  onClick: action("action"),
-  className: "btn-default",
+export const Default = {
+  args: {
+    value: "Button",
+    onClick: action("action"),
+    className: "btn-default",
+  },
 };
 
-export const Primary = Template.bind({});
-Primary.args = {
-  value: "Button",
-  onClick: action("action"),
-  className: "btn-primary",
+export const Primary = {
+  args: {
+    value: "Button",
+    onClick: action("action"),
+    className: "btn-primary",
+  },
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
-  value: "Button",
-  onClick: action("action"),
-  className: "btn-secondary",
+export const Secondary = {
+  args: {
+    value: "Button",
+    onClick: action("action"),
+    className: "btn-secondary",
+  },
 };
