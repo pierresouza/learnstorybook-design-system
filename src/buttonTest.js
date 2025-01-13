@@ -3,11 +3,7 @@ import PropTypes from "prop-types";
 import { Button } from "joao-component-library";
 
 export function ButtonTest({ value, onClick, className }) {
-  return (
-    <>
-      <Button value={value} onClick={onClick} className={className} />
-    </>
-  );
+  return <Button value={value} onClick={onClick} className={className} />;
 }
 
 ButtonTest.propTypes = {
@@ -17,5 +13,9 @@ ButtonTest.propTypes = {
 };
 
 ButtonTest.defaultProps = {
+  value: "Button",
+  onClick: () => alert("Action"),
   className: "btn-primary",
 };
+
+ButtonTest.displayName = "ButtonTest";

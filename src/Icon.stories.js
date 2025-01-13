@@ -49,7 +49,7 @@ const List = styled.ul`
 `;
 
 export default {
-  title: "Design System|Icon",
+  title: "Icon",
   component: Icon,
   tags: ["autodocs"],
 };
