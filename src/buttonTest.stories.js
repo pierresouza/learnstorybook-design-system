@@ -39,3 +39,11 @@ export const Secondary = {
     className: "btn-secondary",
   },
 };
+
+export const Custom = {
+  args: {
+    value: "Button",
+    onClick: action("action"),
+    className: "btn-custom",
+  },
+};
