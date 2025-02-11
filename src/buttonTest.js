@@ -15,7 +15,7 @@ ButtonTest.propTypes = {
 ButtonTest.defaultProps = {
   value: "Button",
   onClick: () => alert("Action"),
-  className: "btn-primary",
+  className: "btn-default",
 };
 
 ButtonTest.displayName = "ButtonTest";

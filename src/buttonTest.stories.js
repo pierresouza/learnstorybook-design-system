@@ -3,13 +3,12 @@ import { action } from "@storybook/addon-actions";
 import { ButtonTest } from "./buttonTest";
 
 export default {
-  title: "ButtonTest",
+  title: "Button",
   component: ButtonTest,
-  tags: ["autodocs"],
   argTypes: {
     className: {
-      options: ["btn-primary", "btn-secondary"],
-      control: { type: "radio" },
+      options: ["btn-default", "btn-primary", "btn-secondary", "btn-custom"],
+      control: { type: "select" },
     },
     value: {
       control: { type: "text" },

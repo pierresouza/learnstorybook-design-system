@@ -12,6 +12,7 @@ export const decorators = [
 
 /** @type { import('@storybook/react').Preview } */
 const preview = {
+  tags: ["autodocs"],
   parameters: {
     controls: {
       matchers: {
@@ -21,4 +22,5 @@ const preview = {
     },
   },
 };
+
 export default preview;
