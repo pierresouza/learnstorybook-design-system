@@ -9,17 +9,13 @@ export default {
     children: {
       control: { type: "text" },
     },
-    className: {
-      options: ["btn-default", "btn-primary", "btn-secondary", "btn-custom"],
-      control: { type: "select" },
-    },
     type: {
       control: { type: "select" },
       options: ["filled", "outlined", "text"], // Tipos de botão suportados
     },
     size: {
       control: { type: "select" },
-      options: ["sm", "md", "lg"], // Tamanhos suportados
+      options: ["sm", "lg"], // Tamanhos suportados
     },
     iconPosition: {
       control: { type: "select" },
@@ -71,7 +67,7 @@ export const WithIconRight = {
 // Botão desabilitado
 export const Disabled = {
   args: {
-    disabled: false,
+    disabled: true,
     children: "Disabled Button",
     type: "filled",
     size: "lg",
@@ -83,7 +79,7 @@ export const AsLink = {
   args: {
     children: "Link Button",
     action: "link",
-    to: "www.goggle.com", // URL de exemplo
+    to: "#", // URL de exemplo
     type: "filled",
     size: "lg",
   },
@@ -95,15 +91,6 @@ export const SmallSize = {
     children: "Small Button",
     type: "filled",
     size: "sm",
-  },
-};
-
-// Botão médio
-export const MediumSize = {
-  args: {
-    children: "Medium Button",
-    type: "filled",
-    size: "md",
   },
 };
 
