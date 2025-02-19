@@ -9,6 +9,10 @@ const config = {
     "@storybook/addon-interactions",
     "@storybook/addon-storysource",
   ],
+  docs: {
+    //👇 See the table below for the list of supported options
+    defaultName: "Documentation",
+  },
   framework: {
     name: "@storybook/react-webpack5",
     options: {},
