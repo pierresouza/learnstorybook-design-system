@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Button } from "zanthus-components";
+import { Button } from "joao-component-library";
 
 export function ButtonTest({ children, onClick, className, type, action, icon, iconPosition, to, disabled, size }) {
   return <Button children={children} onClick={onClick} className={className} type={type} action={action} icon={icon} iconPosition={iconPosition} to={to} disabled={disabled} size={size} />;
