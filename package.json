@@ -4,13 +4,13 @@
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
-    "joao-component-library": "^1.0.67",
     "polished": "^4.3.1",
     "prop-types": "^15.8.1",
     "react": "^18.3.0",
     "react-dom": "^18.3.0",
     "react-scripts": "5.0.1",
-    "styled-components": "^6.1.14"
+    "styled-components": "^6.1.14",
+    "zanthus-components": "^1.0.24"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -47,12 +47,15 @@
     "@storybook/addon-onboarding": "^8.4.7",
     "@storybook/blocks": "^8.4.7",
     "@storybook/preset-create-react-app": "^8.4.7",
+    "@storybook/preset-typescript": "^3.0.0",
     "@storybook/react": "^8.4.7",
     "@storybook/react-webpack5": "^8.4.7",
     "@storybook/test": "^8.4.7",
+    "@types/prop-types": "^15.7.14",
     "eslint-plugin-storybook": "^0.11.2",
     "prettier": "^3.4.2",
     "storybook": "^8.4.7",
+    "ts-loader": "^9.5.2",
     "webpack": "^5.97.1"
   }
 }

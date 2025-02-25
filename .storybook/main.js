@@ -7,7 +7,7 @@ const config = {
     "@storybook/addon-essentials",
     "@chromatic-com/storybook",
     "@storybook/addon-interactions",
-    "@storybook/addon-storysource",
+    "@storybook/preset-typescript",
   ],
   docs: {
     //👇 See the table below for the list of supported options

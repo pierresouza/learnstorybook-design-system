@@ -1,10 +1,12 @@
-
 module.exports = function ({ config }) {
-  // config.module.rules.unshift({
-  //   test: /\.stories.jsx?$/,
-  //   loaders: [require.resolve('@storybook/addon-storysource/loader')],
-  //   enforce: 'pre',
-  // });
+  config.module.rules.push({
+    test: /\.tsx?$/,
+    use: [
+      {
+        loader: require.resolve("ts-loader"),
+      },
+    ],
+  });
 
   return config;
 };
