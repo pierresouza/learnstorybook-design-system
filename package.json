@@ -10,7 +10,7 @@
     "react-dom": "^18.3.0",
     "react-scripts": "5.0.1",
     "styled-components": "^6.1.14",
-    "zanthus-components": "^1.0.24"
+    "zanthus-components": "^1.0.29"
   },
   "scripts": {
     "start": "react-scripts start",
