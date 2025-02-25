@@ -2,20 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Button } from "zanthus-components";
 
-interface ButtonTestProps {
-  children: React.ReactNode;
-  onClick?: () => void;
-  className?: string;
-  type?: "filled" | "outline" | "text";
-  action?: "button" | "link";
-  icon?: React.ReactNode;
-  iconPosition?: "left" | "right";
-  to?: string;
-  disabled?: boolean;
-  size?: "sm" | "lg";
-}
-
-export function ButtonTest({ children, onClick, className, type, action, icon, iconPosition, to, disabled, size }: ButtonTestProps) {
+export function ButtonTest({ children, onClick, className, type, action, icon, iconPosition, to, disabled, size }) {
   return <Button children={children} onClick={onClick} className={className} type={type} action={action} icon={icon} iconPosition={iconPosition} to={to} disabled={disabled} size={size} />;
 }
 
