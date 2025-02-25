@@ -1,6 +1,5 @@
 import React from "react";
 import { GlobalStyle } from "../src/shared/global";
-import "zanthus-components/dist/index.css"; // linha para importação de estilo
 
 export const decorators = [
   (Story) => (
